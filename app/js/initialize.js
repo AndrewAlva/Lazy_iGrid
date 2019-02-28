@@ -14,8 +14,8 @@ window.onload = function() {
     console.log("Initialize.js");
 
     var bLazy = new Blazy({ 
-        selector: 'img', // all images
-        container: '#home-wrapper'
+        selector: 'img' // all images
+        // container: '#home-wrapper'
     });
 
 }

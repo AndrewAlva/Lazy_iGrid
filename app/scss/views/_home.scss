@@ -27,6 +27,7 @@
 		.row{
 			position: relative;
 			width: 100%;
+			margin-bottom: 100px;
 
 			&.left{
 				.thumnbnail-container{
@@ -35,6 +36,12 @@
 
 				h1{
 					right: -20%;
+				}
+
+				&.mid{
+					.thumbnail-container{
+						margin-left: 20%;
+					}
 				}
 			}
 
@@ -45,12 +52,27 @@
 					text-align: left;
 					left: -20%;
 				}
+
+				&.mid{
+					.thumbnail-container{
+						margin-right: 20%;
+					}
+				}
 			}
 		}
 
 		.thumbnail-container{
 			position: relative;
 			display: inline-block;
+
+			&.lg{width: 70%;}
+			&.md{width: 45%;}
+			&.sm{width: 20%;}
+
+			img{
+				position: relative;
+				width: 100%;
+			}
 
 			h1{
 				position: absolute;
