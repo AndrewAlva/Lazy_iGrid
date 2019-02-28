@@ -15,7 +15,7 @@ window.onload = function() {
 
     var bLazy = new Blazy({ 
         selector: 'img' // all images
-        // container: '#home-wrapper'
+        // container: '.grid-wrapper'
     });
 
 }

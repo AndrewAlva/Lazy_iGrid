@@ -27,7 +27,7 @@
 		.row{
 			position: relative;
 			width: 100%;
-			margin-bottom: 100px;
+			margin-bottom: 200px;
 
 			&.left{
 				.thumnbnail-container{
@@ -69,18 +69,73 @@
 			&.md{width: 45%;}
 			&.sm{width: 20%;}
 
+			.project-data{
+				position: relative;
+				width: 100%;
+				padding: 30px 0 30px;
+				text-align: left;
+				background-color: #fff;
+
+				.area, .client{
+					position: relative;
+					display: inline-block;
+					width: 50%;
+				}
+
+				.client{
+					text-align: right;
+				}
+			}
+
 			img{
 				position: relative;
 				width: 100%;
 			}
-
-			h1{
-				position: absolute;
-				display: block;
-				margin: auto;
-				top: 0; bottom: 0;
-				height: 1.2em;
-			}
 		}
 	}
 }
+
+
+// Mbrt site borrowed style
+	.grid__text-block{
+		position: relative;
+		width: 100%;
+		max-width: 1200px;
+		margin: 0 auto;
+		padding: 180px 80px 250px;
+		background-color: #fff;
+
+		.demititle{
+			position: relative;
+			margin-bottom: 5px;
+			text-transform: uppercase;
+		}
+
+		.demititle__line{
+			position: relative;
+			display: inline-block;
+			top: -5px;
+			width: 50px;
+			height: 1px;
+			margin-right: 15px;
+			background-color: #afafaf;
+		}
+
+		.demititle__caption{
+			position: relative;
+			display: inline-block;
+			font-size: .8em;
+		}
+
+		.hero-text{
+			width: 80%;
+			font-size: 2em;
+			line-height: 1.2em;
+			color: #97979b;
+		}
+	}
+
+
+
+
+

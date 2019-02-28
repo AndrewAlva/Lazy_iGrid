@@ -7,7 +7,7 @@ html(class='no-js')
 		title Mbrt AR | Augmented Reality
 
 		//- metatags
-		meta(name='description', content='Hey there! We are a studio of designers devoted to craft visual and functional impactful design on branding and web projects.')
+		meta(name='description', content='We are an independent design studio formed by multi-talented designers and developers crafting digital experiences. AR is part of our dna, here you will discover some projects developed by us.')
 		meta(name='subject', content='Mbrt | Augmented Reality')
 		meta(name='keywords', content='Mandelbrot, Mbrt, Brands, Branding, Studio, Estudio, Mexico, Brand, Management, Consultants, Advice, Two, Craft, Web, Design, Development, Print, Duo, Visual Systems, Visual Language, Diseño, Marca, Consultoría, AR, Realidad, Aumentada, Augmented, Reality')
 		meta(name='author', content='Mandelbrot Studio')
@@ -16,12 +16,15 @@ html(class='no-js')
 		meta(property="og:title" content="Branding & Digital Craft Duo")
 		meta(property="og:site_name" content="Mandelbrot Studio")
 		meta(property="og:url" content="http://ar.mandelbrot.mx/")
-		meta(property="og:description" content="Hey there! We are a studio of two devoted to craft visual and functional impactful design on branding and web projects.")
+		meta(property="og:description" content="We are an independent design studio formed by multi-talented designers and developers crafting digital experiences. AR is part of our dna, here you will discover some projects developed by us.")
 
 		//- stylesheets
 		link(rel='stylesheet', href='css/app.css')
 
 	body
+		//- Header
+		include ../_modules/_header-nav.jade
+
 		//- content
 		#main-wrapper
 			block content
