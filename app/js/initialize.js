@@ -12,4 +12,10 @@ window.onload = function() {
     // Do something, remove preloader perhaps
     console.log("Page fully loaded.");
     console.log("Initialize.js");
+
+    var bLazy = new Blazy({ 
+        selector: 'img', // all images
+        container: '#home-wrapper'
+    });
+
 }
