@@ -58,7 +58,9 @@
 
 				&.mid{
 					.thumbnail-container{
-						margin-left: 20%;
+						@media (min-width: 768px){
+							margin-left: 20%;
+						}
 					}
 				}
 			}
