@@ -37,6 +37,7 @@
 			position: relative;
 			width: 100%;
 			margin-bottom: 200px;
+			@media (min-width: 768px){margin-bottom: 300px;}
 
 			&:last-child{
 				margin-bottom: 100vh;
@@ -86,6 +87,9 @@
 		.thumbnail-container{
 			position: relative;
 			display: inline-block;
+			@include scale(1,1);
+			@include transform-origin(top, left);
+			@include transitions-ease(.6s);
 
 			&.lg{
 				@media (min-width: 768px){
@@ -130,7 +134,7 @@
 				}
 			}
 
-			img{
+			img.b-loaded{
 				position: relative;
 				width: 100%;
 			}
@@ -145,11 +149,11 @@
 		width: 100%;
 		max-width: 1200px;
 		margin: 0 auto;
-		padding: 120px 40px 125px;
+		padding: 120px 40px 80px;
 		background-color: #fff;
 
 		@media (min-width: 768px){
-			padding: 200px 80px 250px;
+			padding: 200px 80px 120px;
 		}
 
 		.demititle{

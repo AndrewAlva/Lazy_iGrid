@@ -23,3 +23,7 @@ body, h1, h2, h3, h4, h5, h6, p, section, div, nav, ul, li, button, figure{
 h1, h2, h3, h4, h5, h6, p{
 	font-weight: 100;
 }
+
+img{
+	@include unselectable;
+}
